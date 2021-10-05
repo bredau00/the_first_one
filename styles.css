@@ -1,0 +1,73 @@
+body {
+  background-image: url(https://picsum.photos/1080/300);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 500px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+  font: 1em sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  border-radius: 25px;
+}
+img {
+  border-radius: 25px;
+  background: #73ad21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: #d6eeee;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid red;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
