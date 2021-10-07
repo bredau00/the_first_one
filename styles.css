@@ -13,7 +13,7 @@ body {
   width: 960px;
   border-radius: 25px;
 }
-img {
+.code {
   border-radius: 25px;
   background: #73ad21;
   padding: 20px;
@@ -71,9 +71,4 @@ nav a {
 nav a:hover {
   background-color: #ddd;
   color: black;
-}
-
-nav a.active {
-  background-color: #04aa6d;
-  color: white;
 }
