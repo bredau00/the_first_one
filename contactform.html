@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My_First_Form</title>
     <link rel="stylesheet" href="styles.css">
-    <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   
 
-      <!-- style -->
-      <style>
+<!-- style -->
+<style>
+body {
+  width: 1700px;
+}
+
       
-        * {
+* {
           
   box-sizing: border-box;
  }
@@ -18,7 +26,7 @@
 input[type="text"],
 select,
 textarea {
-  width: 100%;
+  width: 600px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -28,6 +36,7 @@ textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  
 }
 
 input[type="submit"] {
@@ -73,12 +82,13 @@ input[type="submit"]:hover {
   .col-25,
   .col-75,
   input[type="submit"] {
-    width: 100%;
+    width: 600px;
     margin-top: 0;
   }
 }
-      </style>
-      
+ </style>
+ </head>
+       <body>
       <!-- navigation -->
 <nav>
     <ul>
@@ -101,25 +111,45 @@ input[type="submit"]:hover {
     enctype="multipart/form-data">
 
 <lable for="fname">First name</lable><br>
-<input type="text" id="fname" name="fname"><br><br>
+<input type="text" id="fname" name="fname" placeholder="name"><br><br>
 
 <lable for="lname">Last name</lable><br>
-<input type="text" id="fname" name="fname"><br><br>
+<input type="text" id="fname" name="fname" placeholder="surname"><br><br>
 
 <lable for="email">Email</lable><br>  
-<input type="text" id="fname" name="fname"><br> <br>
+<input type="text" id="fname" name="fname" placeholder="example@gmail.com"><br> <br>
 
 <lable for="number">Phone number</lable><br>  
-<input type="text" id="fname" name="fname"><br> <br>
-
+<input type="text" id="fname" name="fname" placeholder="xxx xxx xxxx"><br> <br>
+ 
 <lable for= message >Message</lable><br>
-<textarea name="message" rows="5" cols="50">
+<textarea name="message" rows="5" cols="50" placeholder="message">
     </textarea><br>
 
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" >
 
 
 </form>
+<br><br>
+<footer>
+  <div class="footer">
+   <!-- media icons -->
+<div class="icons">
+  <a
+    href="https://www.facebook.com/ubaidullah.breda.3/"
+    class="fa fa-facebook"
+  ></a>
+  <a href="https://twitter.com/Bredaubaidullah" class="fa fa-twitter"></a>
+  <a
+    href="https://www.instagram.com/bredaubaidullah/"
+    class="fa fa-instagram"
+  ></a>
+</div>
+</footer>
+
+
+ 
+
 
 
  </body>
